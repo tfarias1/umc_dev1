@@ -1,5 +1,5 @@
 
-package umc_dev1.abstracao;
+package abstracao;
 
 abstract class Animal {
  
