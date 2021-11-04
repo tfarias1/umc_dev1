@@ -13,18 +13,7 @@ abstract class Animal {
 // Subclass 
 class Pig extends Animal {
   public void animalSound() {
-    
+  
     System.out.println("O Porco Faz: wee wee");
   }
 }
-
-class Main {
-  public static void main(String[] args) {
-    Pig myPig = new Pig(); // Create a Pig object
-    myPig.animalSound();
-    myPig.sleep();
-  }
-}
-
-
-
