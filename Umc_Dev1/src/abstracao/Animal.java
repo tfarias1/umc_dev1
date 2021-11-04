@@ -10,10 +10,10 @@ abstract class Animal {
   }
 }
 
-// Subclass (inherit from Animal)
+// Subclass 
 class Pig extends Animal {
   public void animalSound() {
-    // The body of animalSound() is provided here
+    
     System.out.println("O Porco Faz: wee wee");
   }
 }
