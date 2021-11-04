@@ -1,5 +1,5 @@
 
-package abstracao;
+package umc_dev1;
 
 abstract class Animal {
  
@@ -9,6 +9,7 @@ abstract class Animal {
     System.out.println("Zzz");
   }
 }
+
 // Subclass 
 class Pig extends Animal {
   public void animalSound() {
@@ -19,7 +20,7 @@ class Pig extends Animal {
 
 class Main {
   public static void main(String[] args) {
-    Pig myPig = new Pig();
+    Pig myPig = new Pig(); // Create a Pig object
     myPig.animalSound();
     myPig.sleep();
   }
